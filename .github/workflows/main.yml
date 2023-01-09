@@ -4,7 +4,7 @@ on:
 
   
 jobs:
-  Deploy_to_Dev:
+  Deploy_to_Preprod:
     runs-on: ubuntu-latest
     environment: pp
 
