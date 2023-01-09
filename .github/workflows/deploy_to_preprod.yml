@@ -23,5 +23,5 @@ jobs:
           TARGET_DIR: rungisapps
 
   call-workflow:
-    uses: dhaval210/rungisoperation/.github/workflows/blank.yml@pp
+    uses: dhaval210/rungisoperation/.github/workflows/main.yml@pp
     secrets: inherit
