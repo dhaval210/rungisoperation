@@ -1,12 +1,12 @@
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "prod" ]
 
   
 jobs:
-  Deploy_to_Dev:
+  Deploy_to_Prod:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: prod
 
     steps:
     - name: Checkout
